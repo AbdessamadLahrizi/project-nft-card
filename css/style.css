@@ -1,0 +1,129 @@
+/* global */
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* global */
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+
+
+main .box {
+    position: absolute;
+    width: 303.5px;
+    /*height: 544.98px;
+    */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: hsl(216, 50%, 16%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+main .box p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+main .box .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+main .box img.eq {
+    width: 262px;
+    margin: 10px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+main .box .person {
+    display: flex;
+}
+
+main .box .person img {
+    width: 30px;
+    height: 30px;
+}
+
+main .box .content h2 {
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+
+main .box .both {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    position: relative;
+}
+
+main .box .both img {
+    position: absolute;
+}
+
+main .box .both img.eth {
+    left: 0;
+    bottom: 5px;
+}
+
+main .box .both img.clock {
+    right: 85px;
+    bottom: 5px;
+}
+
+main .box .both .eth p {
+    color: #16fbf2;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+main .box .person {
+    border-top: 1px solid hsl(215, 51%, 70%);
+    padding: 20px 0 10px;
+}
+
+main .box .person img {
+    border: 1px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 10px
+}
+
+.main .box .person p .name {
+    color: hsl(0, 0%, 100%);
+}
